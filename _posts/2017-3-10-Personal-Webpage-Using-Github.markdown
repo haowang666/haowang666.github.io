@@ -9,4 +9,5 @@ all you need to do is to custemize that. My webpage is created with the template
 For more instructions, [click here](http://jmcglone.com/guides/github-pages/)
 You can also find lots of templates [here](https://github.com/jekyll/jekyll/wiki/Themes)
 
-
+Does math works?
+$$\int_0^\infty$$
