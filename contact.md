@@ -15,7 +15,7 @@ title: Contact
     <p>If you have questions about the theme feel free to <a href="mailto:haowang@asu.edu">email me</a> or leave your comment on this page</p>
     
   </div>
-  <form action="http://formspree.io/hao.w.nju@gmail.com" method="POST">
+  <form action="https://formspree.io/hao.w.nju@gmail.com" method="POST" method="POST">
     <label for="name">Name</label>    
     <input type="text" id="name" name="name" class="full-width"><br>
     <label for="email">Email Address</label>
