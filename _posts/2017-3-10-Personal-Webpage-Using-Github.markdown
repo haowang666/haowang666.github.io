@@ -12,5 +12,6 @@ For more instructions, [click here](http://jmcglone.com/guides/github-pages/)
 You can also find lots of templates [here](https://github.com/jekyll/jekyll/wiki/Themes)
 
 Does math works?
-
-$$\int_0^\infty$$
+\begin{equation}
+\int_0^\infty
+\end{equation}
