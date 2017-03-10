@@ -5,8 +5,8 @@ title: About Long Haul
 
 <div class="post">
 	<h1 class="pageTitle">About Me</h1>
-	<p class="intro">text text text text text text text texttext text text text </p>
-	<p>text text text text text text text texttext text text text</p>
+	<p class="intro">To be updated </p>
+	<p>To be updated</p>
 	<h2>Links</h2>
 	<ul>
 		<li> <a href="https://www.rstudio.com/online-learning/">Rstudio</a> </li>
