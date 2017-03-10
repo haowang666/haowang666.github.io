@@ -1,3 +1,5 @@
+<script defer src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 Recently I started using Github due to the convenience of distributing lab materials of a stats class. **Blackboard is a nightmare!**
 The nice control version of Github is a great plus for researchers. Besides, as I'm using markdown, it is very intuitive to me to adpat to 
 the writing rules here. 
@@ -10,4 +12,5 @@ For more instructions, [click here](http://jmcglone.com/guides/github-pages/)
 You can also find lots of templates [here](https://github.com/jekyll/jekyll/wiki/Themes)
 
 Does math works?
+
 $$\int_0^\infty$$
