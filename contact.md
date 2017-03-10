@@ -9,10 +9,11 @@ title: Contact
     <p>Hao Wang</p>
     
     School of Politics and Global Studies
-    
+  
     Arizona State University
     
-    <p>If you have questions about the theme feel free to <a href="mailto:haowang@asu.edu">email me</a> or use the comment section on the right side</p>
+    <p>If you have questions about the theme feel free to <a href="mailto:haowang@asu.edu">email me</a> or leave your comment on this page</p>
+    
   </div>
   <form action="http://formspree.io/hao.w.nju@gmail.com" method="POST">
     <label for="name">Name</label>    
