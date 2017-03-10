@@ -8,9 +8,9 @@ title: Contact
   <div class="contactContent">
     <p>Hao Wang</p>
     
-    School of Politics and Global Studies
+    <p>School of Politics and Global Studies</p>
   
-    Arizona State University
+    <p>Arizona State University</p>
     
     <p>If you have questions about the theme feel free to <a href="mailto:haowang@asu.edu">email me</a> or leave your comment on this page</p>
     
