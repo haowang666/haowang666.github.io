@@ -7,8 +7,11 @@ title: Contact
   <h1 class="pageTitle">Contact Me</h1>
   <div class="contactContent">
     <p>Hao Wang</p>
-    <p>School of Politics and Global Studies</p>
-    <p>Arizona State University</p>
+    
+    School of Politics and Global Studies
+    
+    Arizona State University
+    
     <p>If you have questions about the theme feel free to <a href="mailto:haowang@asu.edu">email me</a> or use the comment section on the right side</p>
   </div>
   <form action="http://formspree.io/hao.w.nju@gmail.com" method="POST">
