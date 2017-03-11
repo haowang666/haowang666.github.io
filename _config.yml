@@ -20,7 +20,8 @@ navigation:
    url: /contact
  - title: Research
    url: /research
-
+ - title: 中文
+   url：／chinese
 social:
    github: haowang666
    email: haowang@asu.edu
