@@ -3,7 +3,7 @@ layout: default
 title: About Me
 ---
 
-<div class="post"> ex
+<div class="post"> 
 	<h1 class="pageTitle">About Me</h1>
 	
 	<p>I'm Phd student at <a href = "https://pgs.clas.asu.edu"> ASU</a>. I like playing with data and doing exploratory researches. 
