@@ -16,4 +16,4 @@ title: About Me
   	</ul>
 </div>
 
-![](\assets\image\ford.jpeg)
+
