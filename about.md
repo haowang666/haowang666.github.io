@@ -12,5 +12,7 @@ title: About Me
 
 </div>
 
+<p align="center">
+<img src="\assets\image\self.jpeg" alt="Mountain View" />
+</p>
 
-![](/assets/image/self.jpeg) 
