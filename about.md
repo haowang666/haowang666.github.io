@@ -8,8 +8,9 @@ title: About Me
 	
 	<p>I'm Phd student at <a href = "https://pgs.clas.asu.edu"> ASU</a>. I like playing with data and doing exploratory researches. 
 	Check out my <a href = "https://github.com/haowang666"> Github </a> page for materials in statistical analysis and machine learning.</p>	
+	 
+
 </div>
 
- <img src="/assets/image/self.JPG" alt="Myself" style="width:300px;height:200px;" class="rotateimg180">
 
-
+<img src="/assets/image/self.JPG" alt="Myself" style="width:300px;height:200px;" class="rotateimg180">
