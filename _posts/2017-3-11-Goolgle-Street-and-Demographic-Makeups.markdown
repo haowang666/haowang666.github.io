@@ -7,6 +7,8 @@ to predict the demographic composition in certain districts. In a comparison bet
 it's actually quite accurate.
 
 
-Apparently Ford trucks are strong related to Republican supporters![Alt](/assets/image/ford.jpeg)
+Apparently Ford trucks are strong related to Republican supporters!
+
+![alt=drawing](/assets/image/ford.jpeg =250px)
 
 
