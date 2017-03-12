@@ -13,6 +13,6 @@ title: About Me
 </div>
 
 <p align="center">
-<img src="\assets\image\self.jpeg" alt="Mountain View" style="width:304px;height:228px;" />
+<img src="\assets\image\self.jpeg" alt="myself" style="width:304px;height:228px;" />
 </p>
 
