@@ -10,6 +10,6 @@ title: About Me
 	Check out my <a href = "https://github.com/haowang666"> Github </a> page for materials in statistical analysis and machine learning.</p>	
 </div>
 
- <img src="/assets/image/self.JPG" alt="Myself" style="width:400px;height:300px;" class="rotateimg180">
+ <img src="/assets/image/self.JPG" alt="Myself" style="width:300px;height:200px;" class="rotateimg180">
 
 
