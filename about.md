@@ -13,4 +13,4 @@ title: About Me
 </div>
 
 
-![](/assets/image/self.jpeg") 
+![](/assets/image/self.jpeg) 
