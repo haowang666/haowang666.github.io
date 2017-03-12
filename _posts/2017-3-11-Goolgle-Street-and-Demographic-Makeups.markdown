@@ -1,4 +1,4 @@
-Recently I read a brilliant article. [CLIKE HERE](https://arxiv.org/abs/1702.06683).
+Recently I read a brilliant article. [CLICK HERE](https://arxiv.org/abs/1702.06683).
 
 Gebru et al. (2017) apply deeping learning method with google streets. The core idea is to identify the car models in the google street images.
 
