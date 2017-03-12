@@ -16,10 +16,13 @@ navigation:
    url: /index.html
  - title: About
    url: /about
- - title: Contact
-   url: /contact
  - title: Research
    url: /research
+ - title: Useful Tools
+   url: /tools  
+ - title: Contact
+   url: /contact
+
    
 social:
    github: haowang666
