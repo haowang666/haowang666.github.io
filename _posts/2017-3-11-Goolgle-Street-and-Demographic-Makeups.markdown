@@ -9,6 +9,6 @@ it's actually quite accurate.
 
 Apparently Ford trucks are strong related to Republican supporters!
 
-![](/assets/image/ford.jpeg | width=150)
+![](/assets/image/ford.jpeg)
 
 
