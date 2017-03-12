@@ -13,4 +13,4 @@ title: About Me
 </div>
 
 
-<img src="/assets/image/self.jpeg" alt="Myself" style="width:300px;height:200px;">
+![](/assets/image/self.jpeg") 
