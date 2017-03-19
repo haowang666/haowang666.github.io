@@ -54,8 +54,8 @@ myev <- s.out$get_qi(qi='ev', xvalue = 'range')
 xvalue needs to be set as 'range'. Second, since Zelig is doing 1000 simulations at each level of X, the next step is to convert the list of 25 values of X and convert it into
 a matrix. I spent several hours reading the outputs and was driven crazy by the numerous lists of sim.out. That's why I don't like 'canned' functions!
 
-Certainly, if you are not bothered with the 'cans', you can use the default function built in the package
+Certainly, if you are not bothered with the 'cans', you can use the default function built in the package, in one line
 ```R
 plot(s.out)
 ```
-
+I know this is ironic...
