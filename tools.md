@@ -11,7 +11,9 @@ want to master statistical analysis (Python is great but numpy packages aren't a
 	<ul>
 		<li> <a href="https://www.rstudio.com/online-learning/">Rstudio</a> </li>
                 <li> <a href= "https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf"> R Introduction </a> </li>
-  	</ul>
+                <li> <a href= "http://docs.ggplot2.org/current/"> ggplot2 </a> </li>
+                <li> <a href= "https://hopstat.wordpress.com/2016/02/18/how-i-build-up-a-ggplot2-figure/"> ggplot2 font size </a> </li>
+</ul>
 
 <h2> Learning Python </h2>
         <p> Python is another weapon in data analysis. Unlike R, python is a general language, which makes it extremely useful when
@@ -22,6 +24,9 @@ requring data from different formats </p>
   	</ul>
 
         <h2> Dynamic Reporting </h2>
+<p> Bothered by small changes in your figure and regression tables? [Replication criss](https://en.wikipedia.org/wiki/Replication_crisis)? 
+Try imbedding R codes in your manuscript! </p>
+
 	<ul>
   		<li> <a href="http://rmarkdown.rstudio.com">Rmarkdown</a> </li>
                 <li> <a href="http://svmiller.com/blog/2016/02/svm-r-markdown-manuscript/"> Markdown Template for Academic Articles </a> </li>
