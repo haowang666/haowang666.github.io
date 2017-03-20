@@ -4,7 +4,7 @@ title: Useful Tools
 ---
 
 <div class="post">
-	<h1 class="pageTitle">Tools</h1>
+	<h1 class="pageTitle">Tools for Computational Analysis</h1>
 	<p class="intro"> Learning R </p>
 	<ul>
 		<li> <a href="https://www.rstudio.com/online-learning/">Rstudio</a> </li>
@@ -15,6 +15,12 @@ title: Useful Tools
 	<ul>
   		<li> <a href="http://rmarkdown.rstudio.com">Rmarkdown</a> </li>
                 <li> <a href="http://svmiller.com/blog/2016/02/svm-r-markdown-manuscript/"> Markdown Template for Academic Articles </a> </li>
+  	</ul>
+
+        <p class="intro"> Programming </p>
+        These are helpful for basic programming like html, css and Java
+	<ul>
+  		<li> <a href="https://www.w3schools.com/default.asp">W3 Schools</a> </li>    
   	</ul>
 
 
