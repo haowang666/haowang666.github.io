@@ -1,0 +1,1 @@
+Rmarkdown 功能强大，继承了markdown语法简洁优雅的特点，同时结合[谢益辉大神](yihui.name)的knitr包可以在rtudio中实现动态文本的表达。强烈推荐
