@@ -4,7 +4,7 @@ title: Useful Tools
 ---
 
 <div class="post">
-	<h1 class="pageTitle">Tools for Computational Analysis</h1>
+	<h1 class="pageTitle">Computation</h1>
 	<p class="intro"> Learning R </p>
         <p> <a href="https://www.r-project.org/">R</a> is a powerful open statistical programming language. This is THE TOOL if you 
 want to master statistical analysis (Python is great and numpy packages aren't as developed as R).  </p>
