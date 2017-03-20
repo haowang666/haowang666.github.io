@@ -7,9 +7,10 @@ title: About Me
 	<h1 class="pageTitle">About Me</h1>
 	
 	<p>Welcome to my personal website. I'm a Phd student at <a href = "https://pgs.clas.asu.edu"> ASU</a>. I like playing with data and doing exploratory researches. 
-	Check out my <a href = "https://github.com/haowang666"> Github </a> page for materials in statistical analysis and machine learning.</p>	
-	<p>»¶Ó­À´µ½Íõğ©µÄ¸öÈËÖ÷Ò³¡£Ä¿Ç°ÎÒÊÇÑÇÀûÉ£ÄÇÖİÁ¢´óÑ§ÕşÖÎÑ§²©Ê¿Éú£¬ÑĞ¾¿ÕşÖÎĞÄÀíÑ§£¬¹«ÖÚÓßÂÛºÍÕşÖÎĞĞÎª¡£
-´ËÍâÎÒÏ²»¶Ñ§Ï°Í³¼ÆÑĞ¾¿·½·¨£¬ÓÈÆäÊÇÍ³¼ÆÑ§Ï°/»úÆ÷Ñ§Ï°·½Ïò¡£</p>
+	Check out my <a href = "https://github.com/haowang666"> Github </a> page for materials in statistical analysis and machine learning.</p>
+	
+	<p>æ¬¢è¿æ¥åˆ°ç‹çš“çš„ä¸ªäººä¸»é¡µã€‚ç›®å‰æˆ‘æ˜¯äºšåˆ©æ¡‘é‚£å·ç«‹å¤§å­¦æ”¿æ²»å­¦åšå£«ç”Ÿï¼Œç ”ç©¶æ”¿æ²»å¿ƒç†å­¦ï¼Œå…¬ä¼—èˆ†è®ºå’Œæ”¿æ²»è¡Œä¸ºã€‚
+æ­¤å¤–æˆ‘å–œæ¬¢å­¦ä¹ ç»Ÿè®¡ç ”ç©¶æ–¹æ³•ï¼Œå°¤å…¶æ˜¯ç»Ÿè®¡å­¦ä¹ /æœºå™¨å­¦ä¹ æ–¹å‘ã€‚</p>
 
 </div>
 
