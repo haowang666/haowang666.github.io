@@ -12,7 +12,7 @@ title: Contact
   
     <p>Arizona State University</p>
     
-    <p>If you have questions about the theme feel free to <a href="mailto:haowang@asu.edu">email me</a> or leave your comment on this page</p>
+    <p>If you have questions about me feel free to <a href="mailto:haowang@asu.edu">email me</a> or leave your comment on this page</p>
     
   </div>
   <form action="https://formspree.io/hao.w.nju@gmail.com" method="POST">
