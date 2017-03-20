@@ -24,7 +24,7 @@ requring data from different formats </p>
   	</ul>
 
         <h2> Dynamic Reporting </h2>
-<p> Bothered by small changes in your figure and regression tables? [Replication criss](https://en.wikipedia.org/wiki/Replication_crisis)? 
+<p> Bothered by small changes in your figure and regression tables? <a href = "https://en.wikipedia.org/wiki/Replication_crisis"> Replication criss </a>? 
 Try imbedding R codes in your manuscript! </p>
 
 	<ul>
