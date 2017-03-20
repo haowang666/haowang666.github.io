@@ -20,7 +20,7 @@ want to master statistical analysis (Python is great and numpy packages aren't a
   	</ul>
 
         <p class="intro"> Programming </p>
-        These are helpful for basic programming like html, css and Java
+        <p> These are helpful for basic programming like html, css and Java </p>
 	<ul>
   		<li> <a href="https://www.w3schools.com/default.asp">W3 Schools</a> </li>    
   	</ul>
