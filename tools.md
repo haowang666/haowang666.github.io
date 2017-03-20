@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Useful Tools
+title: Computing
 ---
 
 <div class="post">
