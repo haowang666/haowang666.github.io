@@ -1,6 +1,6 @@
 I spent so much time today trying to extract Zelig simulation outcomes, online documents are confusing me! [here](http://docs.zeligproject.org/en/latest/getters.html)
 
-Test equation $\lambda$
+Test equation \\( \lambda )\\
 
 The problem is that all the instructions do not specify how to extract results when simulating a sequence of Xs. I figured it out in a cumbersome way:
 
