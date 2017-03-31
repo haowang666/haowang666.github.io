@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: data science ish
+title: Poltics, Stastistics
 locale: en_US
-description: A Blog by Julia Silge
+description: Personal Website of Hao Wang
 logo: blog_logo.png
 search: true
-url: http://juliasilge.com
+url: http://haowang.pw
 
 # Jekyll configuration
 
@@ -34,16 +34,16 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Julia Silge
+  name: Hao Wang
   avatar: blog_profile.jpg
-  email: julia.silge@gmail.com
-  disqus-shortname: datascienceish
-  twitter: juliasilge
+  email: hao@haowang.pw
+  disqus-shortname: Hao Wang
+  twitter: #
   facebook: #username
-  github: juliasilge
+  github: haowang666
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: juliasilge
-  instagram: juliasilge
+  linkedin: #
+  instagram: #
   flickr: #username
   tumblr: #username
   pinterest: #username
