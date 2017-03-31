@@ -1,3 +1,15 @@
+---
+layout: post
+title: "Interaction in Logistic Regression"
+date: 2017-03-26
+output: html_document
+share: true
+categories: blog
+excerpt: "deal with product term in logistic regression"
+tags: [rstats]
+---
+
+
 <html>
 <head>
 <script type="text/x-mathjax-config">
