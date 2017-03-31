@@ -3,4 +3,5 @@ layout: page
 title: Resume
 ---
 
-Click [here]() for my CV.
+Click [here]() for the pdf version.
+
