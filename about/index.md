@@ -1,8 +1,8 @@
 ---
 layout: page
 title: About Me
-image:
-  feature: blog_profile.jpg
+<!--image:
+  feature: blog_profile.jpg-->
 ---
 
 My name is Hao Wang, currently a Phd student at [ASU](https://pgs.clas.asu.edu/). I love talking about politics, public opinion and political psychology. I'm also a fan of [Rstat](https://www.r-project.org/) and love exploring data. You can find me on my 
