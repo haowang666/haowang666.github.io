@@ -13,7 +13,7 @@ tags: [rstats]
 I spent so much time today trying to extract Zelig simulation outcomes, online documents are confusing me! [here](http://docs.zeligproject.org/en/latest/getters.html)
 
 
-The problem is that all the instructions do not specify how to extract results when simulating a sequence of $X_i$. I figured it out in a cumbersome way:
+The problem is that all the instructions do not specify how to extract results when simulating a sequence of \\( X_i \\). I figured it out in a cumbersome way:
 
 Using the Cowles data in the effects package as an example 
 
