@@ -12,11 +12,11 @@ tags: [rstats]
 
 I spent so much time today trying to extract Zelig simulation outcomes, online documents are confusing me! [here](http://docs.zeligproject.org/en/latest/getters.html)
 
-Test equation \\( \lambda )\\
 
-The problem is that all the instructions do not specify how to extract results when simulating a sequence of Xs. I figured it out in a cumbersome way:
+The problem is that all the instructions do not specify how to extract results when simulating a sequence of $X_i$. I figured it out in a cumbersome way:
 
-Using the Cowles data in the effects package as an example
+Using the Cowles data in the effects package as an example 
+
 ```R
 library(effects)
 library(Zelig)
@@ -66,7 +66,7 @@ There're a few places which needs extra attention: first, in the line
 myev <- s.out$get_qi(qi='ev', xvalue = 'range')
 ```
 xvalue needs to be set as 'range'. Second, since Zelig is doing 1000 simulations at each level of X, the next step is to convert the list of 25 values of X and convert it into
-a matrix. I spent several hours reading the outputs and was driven crazy by the numerous lists of sim.out. That's why I don't like 'canned' functions!
+a matrix. I spent several hours reading the outputs and was driven crazy by the numerous lists of sim.out. Please write detailed documents!
 
 Certainly, if you are not bothered with the 'cans', you can use the default function built in the package, in one line
 ```R
