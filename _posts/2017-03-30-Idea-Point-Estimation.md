@@ -16,4 +16,4 @@ Some [relevant stuffs](http://www.gsood.com/research/papers/mediabias.pdf). And 
 
 BTW, I really like [Gaurav Sood](http://www.gsood.com/)'s study, his topics are so interesting. After reading a whole semester's institutions, I felt I'm exhausted about political science, now I'm glad it is not because I lost interest, but some stuffs just don't interest me. 
 
-![center](haowang666.github.io/figs/2017-03-30-Ideal-Estimate/ml.png)
+![center](/figs/2017-03-30-Ideal-Estimate/ml.png)
