@@ -1,3 +1,3 @@
 Welcome to my webpage.
 
-The website is based on the template [Long Haul](https://github.com/brianmaierjr/long-haul)
+The website is based on the template [So Simple](https://github.com/mmistakes/so-simple-theme)
