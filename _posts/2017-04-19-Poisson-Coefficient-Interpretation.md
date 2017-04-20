@@ -16,7 +16,7 @@ In poisson regression, the regression coefficients are  interpreted as the diffe
 
 $$\beta = log(\mu_{x+1}) - log(\mu_x)$$
 
-Let do the exponetial transformation:
+Let do the exponential transformation:
 
 $$exp(\beta) = exp[log(\mu_{x+1}) - log(\mu_x)]$$
 
@@ -28,10 +28,10 @@ $$exp(\beta) - 1  = \frac{\mu_{x+1}}{\mu_{x}} - 1$$
 
 $$exp(\beta) - 1  = \frac{\mu_{x+1} - \mu_{x}}{\mu_{x}}$$
 
-The last equation can be interpreted as the precentage increase of the count number. 
+The last equation can be interpreted as the percentage increase of the count number. 
 
 
-To give you a working example, let first run a poisson regression on an abtritary R dataset. I use [Zelig](http://docs.zeligproject.org/en/latest/zelig-poisson.html) here, results are the same for glm function.
+To give you a working example, let first run a poisson regression on an arbitrary R dataset. I use [Zelig](http://docs.zeligproject.org/en/latest/zelig-poisson.html) here, results are the same for glm function.
 
 ```R
 library(Zelig)
