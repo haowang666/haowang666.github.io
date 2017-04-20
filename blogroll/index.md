@@ -13,6 +13,7 @@ want to master statistical analysis (Python is great but numpy packages aren't a
                 <li> <a href= "https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf"> R Introduction </a> </li>
                 <li> <a href= "http://docs.ggplot2.org/current/"> ggplot2 </a> </li>
                 <li> <a href= "https://hopstat.wordpress.com/2016/02/18/how-i-build-up-a-ggplot2-figure/"> ggplot2 font size </a> </li>
+                <li> <a href= "http://www.cookbook-r.com/Graphs/"> ggplot2 cookbook </a> </li>
 </ul>
 
 <h2> Learning Python </h2>

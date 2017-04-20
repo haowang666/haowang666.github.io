@@ -10,7 +10,7 @@ tags: [rstats]
 ---
 
 
-Interpret GLM coefficients can be tricky, especially if you want to do that in a similar like OLS. I personally prefer calculating the expected outcomes and plot the results, but if you're really into that **odds ratio** stuffs. Here's someway to do that.
+Interpret GLM coefficients can be tricky, especially if you want to do that in a similar way like OLS. I personally prefer calculating the expected outcomes and plot the results, but if you're really into that **odds ratio** stuffs. Here's someway to do that.
 
 In poisson regression, the regression coefficients are  interpreted as the difference between the log of expected counts, where formally, this can be written as 
 
