@@ -19,9 +19,13 @@ $$\beta = log(\mu_{x+1}) - log(\mu_x)$$
 Let do the exponetial transformation:
 
 $$exp(\beta) = exp[log(\mu_{x+1}) - log(\mu_x)]$$
+
 $$exp(\beta) = \frac{exp(log(\mu_{x+1}))}{exp(log(\mu_x))}$$
+
 $$exp(\beta) = \frac{\mu_{x+1}}{\mu_{x}}$$
+
 $$exp(\beta) - 1  = \frac{\mu_{x+1}}{\mu_{x}} - 1$$
+
 $$exp(\beta) - 1  = \frac{\mu_{x+1} - \mu_{x}}{\mu_{x}}$$
 
 The last equation can be interpreted as the precentage increase of the count number. 
