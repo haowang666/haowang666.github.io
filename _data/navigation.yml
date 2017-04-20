@@ -1,7 +1,6 @@
 # Site navigation links
-
-- title: Blog
-  url: /blog/
+- title: Home
+  url: /home/
 
 - title: Resume
   url: /resume/
@@ -15,6 +14,9 @@
 - title: Research
   url: /research/  
   
+- title: Blog
+  url: /blog/
+
 - title: Resources
   url: /blogroll/
 
