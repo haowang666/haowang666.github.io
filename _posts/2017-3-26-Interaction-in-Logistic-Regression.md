@@ -24,8 +24,11 @@ tags: [rstats]
 
 <p>
 Recently I come across the question of the product term in GLM:
+  
 $$Pr(Y) = logit(Y^*) = \frac{1}{1+e^{-Y^*}}$$
+
 The question is pretty straightforward in linear regression: 
+
 $$Y = \beta_0  + \beta_{1}x_1 + \beta_{2}x_2 + \beta_{12}x_{1}x_{2}$$
 
 To get the marginal effect of $x_1$, simply take its partial derivative:
