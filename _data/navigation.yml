@@ -2,17 +2,14 @@
 - title: Home
   url: /home/
 
-- title: Resume
+- title: About Me
   url: /resume/
 
 - title: Github
   url: http://github.com/haowang666
 
-- title: Teaching
-  url: /teach/
-  
-- title: Research
-  url: /research/  
+- title: Project
+  url: /project/
   
 - title: Blog
   url: /blog/
