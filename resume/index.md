@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Resume
 ---
 
 With five years experience in social science, I immersed myself with highly skilled quantative methods: econometrics, time-series analysis, mixed models, survival models, categorical data analysis etc.
