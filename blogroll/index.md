@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Toolbox for Computational Social Science
 ---
 
 <div class="post">
