@@ -10,6 +10,8 @@ tags: [text mining]
 ---
 
 
+load the essential packages in R
+
 
 An template
 {% highlight r %}
