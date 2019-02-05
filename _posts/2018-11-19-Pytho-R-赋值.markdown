@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Python和R在赋值的不同"
+date: 2017-11-19
+output: html_document
+share: true
+categories: blog
+excerpt: "value assign difference"
+tags: [Python]
+---
+
+近日因为研究需要开始大规模转向Python。作为一个资深R使用者，不得不说有些习惯要注意一下。
+
+Python中的赋值是动态的。
+
+```
+a = 6
+b = a
+a = 7
+print(b)
+###########
+---> return 7
+```
+在R里面只看顺序
+
+```R
+a <- 6
+b <- a
+a <- 7
+print(b)
+###########
+---> return 6
+
+```
