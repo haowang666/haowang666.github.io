@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1542689646466.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "81C312DB",
+    "lastKnownWriteTime" : 1541538934,
+    "last_content_update" : 1541538934,
+    "path" : "E:/Dropbox/01Research Project/Text-Analysis/unsupervised/sotus_speeches.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "1,28",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

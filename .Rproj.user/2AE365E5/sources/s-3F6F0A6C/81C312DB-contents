@@ -1,0 +1,138 @@
+####################################################################################
+####################################################################################
+# WORD ASSOCIATIONS
+# Find terms associated with the term "equality" in SOTUS 
+# Ideally you would be able to compute this per speech, but you need more than one text in each corpus to find word associations #
+# 1. You could for example consider grouping the texts for each president, and make comparisons between presidents #
+# I will run the analysis with this example for Reagan 81-84 and Bush 89-92 #
+####################################################################################
+####################################################################################
+
+### Clear workspace ###
+rm(list=ls())
+
+### Required packages ###
+library("readtext")
+library("tm")
+library("quanteda")
+# EXAMPLE 1. You could for example consider grouping the texts for each president, and make comparisons between presidents #
+
+### Import texts ###
+#reagan_81_84 <- readtext("/Users/recordel/Dropbox (ASU)/My Research/Misc/Teaching/ASU/Text Analysis 2018/Unsupervised/SOTUS/Bush/*.txt", docvarsfrom=c("filenames"))
+#bush_89_92 <- readtext("/Users/recordel/Dropbox (ASU)/My Research/Misc/Teaching/ASU/Text Analysis 2018/Unsupervised/SOTUS/Reagan/*.txt", docvarsfrom=c("filenames"))
+
+reagan_81_84 <- readtext("~/Dropbox/01Research Project/Text-Analysis/unsupervised/Reagan/*.txt", docvarsfrom=c("filenames"))
+bush_89_92 <- readtext("~/Dropbox/01Research Project/Text-Analysis/unsupervised/Bush/*.txt", docvarsfrom=c("filenames"))
+
+
+# Clean texts
+reagan_81_84$text<-gsub("\\s+"," ",reagan_81_84$text) # remove unnecessary white space #
+reagan_81_84$text<-tolower(reagan_81_84$text) # convert to lower case #
+reagan_81_84$text<-gsub( "[[:punct:]]", "", reagan_81_84$text) # remove punctuation #
+reagan_81_84$text <- gsub("[^\x20-\x7E]", "", reagan_81_84$text) # remove non-ascii characters #
+reagan_81_84$text <-gsub("[^[:print:]]", "", reagan_81_84$text) # remove encoded text #
+reagan_81_84$text<-gsub('[[:digit:]]+', '', reagan_81_84$text) # remove numbers
+
+bush_89_92$text<-gsub("\\s+"," ",bush_89_92$text) # remove unnecessary white space #
+bush_89_92$text<-tolower(bush_89_92$text) # convert to lower case #
+bush_89_92$text<-gsub( "[[:punct:]]", "", bush_89_92$text) # remove punctuation #
+bush_89_92$text <- gsub("[^\x20-\x7E]", "", bush_89_92$text) # remove non-ascii characters #
+bush_89_92$text <-gsub("[^[:print:]]", "", bush_89_92$text) # remove encoded text #
+bush_89_92$text<-gsub('[[:digit:]]+', '', bush_89_92$text) # remove numbers
+
+#more on text cleaning:
+# tm_map(corpus, removeNumbers)
+# tm_map(corpus, removePunctuation)
+# removeWords -- this is a function
+
+
+
+### Stem words ###
+reagan_81_84_corp_stem <-Corpus(VectorSource(reagan_81_84$text), readerControl = list(language = "en"))
+reagan_81_84_corp_stem <- tm_map(reagan_81_84_corp_stem, stemDocument, language= "english")
+reagan_81_84_corp_stem_dta<-data.frame(text = sapply(reagan_81_84_corp_stem, as.character), stringsAsFactors = FALSE)
+
+bush_89_92_corp_stem <-Corpus(VectorSource(bush_89_92$text), readerControl = list(language = "en"))
+bush_89_92_corp_stem <- tm_map(bush_89_92_corp_stem, stemDocument, language= "english")
+bush_89_92_corp_stem_dta<-data.frame(text = sapply(bush_89_92_corp_stem, as.character), stringsAsFactors = FALSE)
+
+# more on stem words
+# stem words
+# stem_words <- stemDocument(c("complicated", "complicatedly", "complication"))
+# stem_words
+# complte words using single word dictionary
+# stemCompletion(stem_words, c("complicate"))
+
+#################################################################
+### Remove stop words ###
+reagan_81_84_corp_stem_dta$text<- tokens(reagan_81_84_corp_stem_dta$text)
+reagan_81_84_corp_stem_dta$text<-tokens_select(reagan_81_84_corp_stem_dta$text,stopwords("english"), selection=c("remove"))
+reagan_81_84_corp_dfm <- dfm(reagan_81_84_corp_stem_dta$text, verbose = FALSE)
+reagan_81_84_corp_dfm_dta<-as.data.frame(reagan_81_84_corp_dfm)
+reagan_81_84_corp_dtm <-convert(reagan_81_84_corp_dfm, to = c("tm"), docvars = NULL)
+
+bush_89_92_corp_stem_dta$text<- tokens(bush_89_92_corp_stem_dta$text)
+bush_89_92_corp_stem_dta$text<-tokens_select(bush_89_92_corp_stem_dta$text,stopwords("english"), selection=c("remove"))
+bush_89_92_corp_dfm <- dfm(bush_89_92_corp_stem_dta$text, verbose = FALSE)
+bush_89_92_corp_dfm_dta<-as.data.frame(bush_89_92_corp_dfm)
+bush_89_92_corp_dtm <-convert(bush_89_92_corp_dfm, to = c("tm"), docvars = NULL)
+
+### Associations ###
+term<-reagan_81_84_corp_dfm_dta[grepl("race", names(reagan_81_84_corp_dfm_dta))] # find stemmed terms to search for
+colnames(term)
+findAssocs(reagan_81_84_corp_dtm, "race", 0.90) # find terms associated in the text with "race"
+
+term<-reagan_81_84_corp_dfm_dta[grepl("equal", names(reagan_81_84_corp_dfm_dta))] # find stemmed terms to search for
+colnames(term)
+findAssocs(bush_89_92_corp_dtm, "equal", 0.90) # find terms associated in the text with "race"
+
+####################################################################################
+####################################################################################
+# STRUCTURAL TOPIC MODEL
+####################################################################################
+####################################################################################
+
+library("stm")
+# Preprocess texts 
+reagan_81_84_processed <- textProcessor(reagan_81_84$text, metadata = reagan_81_84) # This builds a corpus, converts to lower case, removes stop words and numbers, punctuation and stems words
+
+# Removes infrequent terms
+reagan_81_84_out <- prepDocuments(reagan_81_84_processed$documents, reagan_81_84_processed$vocab, reagan_81_84_processed$meta)
+
+# Get topics
+reagan_81_84_fit0 <- stm(reagan_81_84_out$documents, # the documents
+                         reagan_81_84_out$vocab, # the words
+                         K = 5, # 10 topics
+                         max.em.its = 75, # set to run for a maximum of 75 EM iterations
+                         data = reagan_81_84_out$meta, # all the variables (we're not actually including any predictors in this model, though)
+                         init.type = "Spectral") 
+labelTopics(reagan_81_84_fit0)
+
+# Plot topics
+plot.STM(reagan_81_84_fit0, type = "labels", text.cex = 0.5) # all
+plot.STM(reagan_81_84_fit0, type = "summary") # short
+
+# Find correlations for words within topics
+round(topicCorr(reagan_81_84_fit0)$cor, 2)
+
+# Preprocess texts 
+bush_89_92_processed <- textProcessor(bush_89_92$text, metadata = bush_89_92) # This builds a corpus, converts to lower case, removes stop words and numbers, punctuation and stems words
+
+# Removes infrequent terms
+bush_89_92_out <- prepDocuments(bush_89_92_processed$documents, bush_89_92_processed$vocab, bush_89_92_processed$meta)
+
+# Get topics
+bush_89_92_fit0 <- stm(bush_89_92_out$documents, # the documents
+                       bush_89_92_out$vocab, # the words
+                       K = 10, # 10 topics
+                       max.em.its = 75, # set to run for a maximum of 75 EM iterations
+                       data = bush_89_92_out$meta, # all the variables (we're not actually including any predictors in this model, though)
+                       init.type = "Spectral") 
+labelTopics(bush_89_92_fit0)
+
+# Plot topics
+plot.STM(bush_89_92_fit0, type = "labels", text.cex = 0.5) # all
+plot.STM(bush_89_92_fit0, type = "summary") # short
+
+# Find correlations for words within topics
+round(topicCorr(bush_89_92_fit0)$cor, 2)
