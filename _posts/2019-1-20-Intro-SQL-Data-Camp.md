@@ -1,5 +1,17 @@
+---
+layout: post
+title: "Ideal Point Estimation"
+date: 2019-01-20
+output: html_document
+share: true
+categories: blog
+excerpt: "learning basic SQL"
+tags: [SQL]
+---
+
 计划两周内做到能用。
-# 2/5/2019
+
+## 2/5/2019
 DataCamp 课程：Intro to SQL
 - Some Concepts: 
 
