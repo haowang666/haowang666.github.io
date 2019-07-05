@@ -9,7 +9,7 @@ excerpt: "learning basic SQL"
 tags: [SQL]
 ---
 
-计划两周内做到能用, 主要依据DataCamp课程：Intro to SQL
+计划两周内做到能用, 主要依据DataCamp课程
 
 ## 2/5/2019
 
@@ -30,7 +30,7 @@ tags: [SQL]
 **Notation:**
 - use ';' to separate lines
 - key words: SELECT, FROM are not case sensitive 
-- 
+
 **Basic grammar: **
 SELECT A,B,C FROM D;
 SELECT * FROM D
@@ -40,3 +40,21 @@ LIMIT 10;
 LIMIT: set the maximum number of rows
 DISTINCT: select unique values
 COUNT: return the number of rows; COUNT(DISTINCT ABC)
+WHERE: set restrictions (=, <>, <, >) use logical combination 'and' 'or', can use as many as possible
+IN/BETWEEN: IN(a,b,c,d...) good for selecting discrete restrictions 
+
+
+## 2/7/2019
+
+**Special key words**
+- NULL is a special case, standing for missing value. Null is also a key word, which means it is not case-sensitive.
+- LIKE and NOT LIKE： SELECT name FROM companies WHERE name LIKE 'Data%';
+
+**Aggregate functions**
+- AVG: average calculation
+- MAX
+- SUM: summation function 
+
+
+
+## 2/8/2019
