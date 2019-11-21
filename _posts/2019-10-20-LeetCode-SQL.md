@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Leet SQL"
+title: "LeetCode SQL"
 date: 2019-10-20
 output: html_document
 share: true
